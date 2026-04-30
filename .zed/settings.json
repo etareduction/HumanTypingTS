@@ -18,6 +18,21 @@
       "language_servers": ["deno"],
       "formatter": "language_server",
       "format_on_save": "on"
+    },
+    "JSON": {
+      "language_servers": ["deno"],
+      "formatter": "language_server",
+      "format_on_save": "on"
+    },
+    "JSONC": {
+      "language_servers": ["deno"],
+      "formatter": "language_server",
+      "format_on_save": "on"
+    },
+    "YAML": {
+      "language_servers": ["deno"],
+      "formatter": "language_server",
+      "format_on_save": "on"
     }
   }
 }

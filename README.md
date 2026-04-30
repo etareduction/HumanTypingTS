@@ -4,17 +4,21 @@
 [![Deno](https://img.shields.io/badge/deno-^2.0-blue?logo=deno)](https://deno.land/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> A TypeScript port of [HumanTyping](https://github.com/Lax3n/HumanTyping) by [@Lax3n](https://github.com/Lax3n).
+> A TypeScript port of [HumanTyping](https://github.com/Lax3n/HumanTyping) by
+> [@Lax3n](https://github.com/Lax3n).
 
-**The most realistic keyboard typing simulator** based on Markov Chains and stochastic processes.
+**The most realistic keyboard typing simulator** based on Markov Chains and
+stochastic processes.
 
-HumanTyping models authentic human typing behavior with unprecedented accuracy, making automated typing indistinguishable from real users.
+HumanTyping models authentic human typing behavior with unprecedented accuracy,
+making automated typing indistinguishable from real users.
 
 ## 🎬 See It In Action
 
 ![Typing Demo](demotyping.gif)
 
-_Watch HumanTyping simulate realistic typing with natural speed variations, errors, and corrections._
+_Watch HumanTyping simulate realistic typing with natural speed variations,
+errors, and corrections._
 
 ---
 
@@ -36,11 +40,11 @@ const browser = await chromium.launch({ headless: false });
 const page = await browser.newPage();
 await page.goto("https://google.com");
 
-const typer = new HumanTyper(70);  // Create typer
+const typer = new HumanTyper(70); // Create typer
 
 const searchBox = page.locator("[name='q']");
 await searchBox.click();
-await typer.type(searchBox, "realistic typing!");  // Type like a human!
+await typer.type(searchBox, "realistic typing!"); // Type like a human!
 
 await browser.close();
 ```
@@ -52,16 +56,20 @@ await browser.close();
 ### Advanced Typing Simulation
 
 - **Variable Speed**: Common words typed 40% faster, complex words 30% slower
-- **Bigram Acceleration**: Frequent letter pairs (th, er, in) typed in rapid bursts
-- **Fatigue Modeling**: Typing speed gradually decreases over time (0.05% per character)
+- **Bigram Acceleration**: Frequent letter pairs (th, er, in) typed in rapid
+  bursts
+- **Fatigue Modeling**: Typing speed gradually decreases over time (0.05% per
+  character)
 - **Natural Pauses**: Micro-pauses between words (250ms average)
 
 ### Realistic Error Patterns
 
-- **Neighbor Errors**: Types adjacent keys based on keyboard layout (QWERTY/AZERTY)
+- **Neighbor Errors**: Types adjacent keys based on keyboard layout
+  (QWERTY/AZERTY)
 - **Swap Errors**: Character inversions like "teh" → "the"
 - **Delayed Detection**: Some errors go unnoticed until final proofreading
-- **Correction Behavior**: Uses Backspace immediately or navigates with arrow keys later
+- **Correction Behavior**: Uses Backspace immediately or navigates with arrow
+  keys later
 
 ### Customization
 
@@ -83,7 +91,9 @@ HumanTyping uses a **semi-Markov process** where:
   - Key distance on the keyboard
   - Character complexity (accents, uppercase)
 
-The system maintains both a **mental cursor** (where the user thinks they are) and a **physical cursor** (actual position), allowing realistic proofreading and corrections.
+The system maintains both a **mental cursor** (where the user thinks they are)
+and a **physical cursor** (actual position), allowing realistic proofreading and
+corrections.
 
 ---
 
@@ -205,27 +215,27 @@ Edit `src/humantyping/config.ts` to fine-tune the simulation:
 
 ```typescript
 // Typing speed
-export const DEFAULT_WPM = 60;        // Base speed
-export const WPM_STD = 10;            // Variance between sessions
+export const DEFAULT_WPM = 60; // Base speed
+export const WPM_STD = 10; // Variance between sessions
 
 // Error rates
-export const PROB_ERROR = 0.04;       // 4% chance of typing wrong key
+export const PROB_ERROR = 0.04; // 4% chance of typing wrong key
 export const PROB_SWAP_ERROR = 0.015; // 1.5% chance of swapping two characters
 export const PROB_NOTICE_ERROR = 0.85; // 85% chance to notice errors immediately
 
 // Speed adjustments
-export const SPEED_BOOST_COMMON_WORD = 0.6;  // Common words 40% faster
-export const SPEED_BOOST_BIGRAM = 0.4;        // Frequent bigrams 60% faster
+export const SPEED_BOOST_COMMON_WORD = 0.6; // Common words 40% faster
+export const SPEED_BOOST_BIGRAM = 0.4; // Frequent bigrams 60% faster
 export const SPEED_PENALTY_COMPLEX_WORD = 1.3; // Complex words 30% slower
 
 // Timing (seconds)
-export const TIME_SPACE_PAUSE_MEAN = 0.25;   // Pause between words
-export const TIME_BACKSPACE_MEAN = 0.12;     // Backspace press time
-export const TIME_ARROW_MEAN = 0.15;         // Arrow key navigation time
-export const TIME_REACTION_MEAN = 0.35;      // "Oops" delay after error
+export const TIME_SPACE_PAUSE_MEAN = 0.25; // Pause between words
+export const TIME_BACKSPACE_MEAN = 0.12; // Backspace press time
+export const TIME_ARROW_MEAN = 0.15; // Arrow key navigation time
+export const TIME_REACTION_MEAN = 0.35; // "Oops" delay after error
 
 // Fatigue
-export const FATIGUE_FACTOR = 1.0005;        // 0.05% slowdown per character
+export const FATIGUE_FACTOR = 1.0005; // 0.05% slowdown per character
 ```
 
 ---
