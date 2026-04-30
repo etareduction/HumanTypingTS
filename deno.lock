@@ -4,6 +4,7 @@
     "jsr:@std/assert@1": "1.0.19",
     "jsr:@std/internal@^1.0.12": "1.0.13",
     "npm:@stdlib/random-base-mt19937@~0.2.3": "0.2.3",
+    "npm:@stdlib/random-base-uniform@~0.2.3": "0.2.3",
     "npm:patchright-mcp@*": "0.0.68"
   },
   "jsr": {
@@ -532,6 +533,15 @@
       "dependencies": [
         "@stdlib/array-uint16",
         "@stdlib/array-uint8"
+      ],
+      "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
+    },
+    "@stdlib/assert-is-nan@0.2.3": {
+      "integrity": "sha512-gFTy7KCz0/bqf0pnEBihtpVz8QYZHiYDuv8wvTZsybMz8tDOE5LnNPJ1klCsWgRLgCy9MA7uec3xwfst9n+71A==",
+      "dependencies": [
+        "@stdlib/assert-is-number",
+        "@stdlib/math-base-assert-is-nan",
+        "@stdlib/utils-define-nonenumerable-read-only-property"
       ],
       "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
     },
@@ -1288,6 +1298,54 @@
       "integrity": "sha512-T/sYVJjs9iHAOK9B8yGymGY+59eAz20G7eL/G4cObT6sWssAF7s/2+KgzAvWB0maE9qX6qnP4zBg2msCsWwvVg==",
       "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
     },
+    "@stdlib/random-base-minstd-shuffle@0.2.3": {
+      "integrity": "sha512-WurU4bXC9+3qqJgOrkE37DPNxHe82O3mnyoxDXEoAH8vuuT/ZM81/TfJ/DcOH94VQvwT0Wm4hY5mQPzF7Ide1g==",
+      "dependencies": [
+        "@stdlib/array-int32",
+        "@stdlib/array-to-json",
+        "@stdlib/assert-has-own-property",
+        "@stdlib/assert-is-boolean",
+        "@stdlib/assert-is-collection",
+        "@stdlib/assert-is-int32array",
+        "@stdlib/assert-is-plain-object",
+        "@stdlib/assert-is-positive-integer",
+        "@stdlib/blas-base-gcopy",
+        "@stdlib/constants-int32-max",
+        "@stdlib/error-tools-fmtprodmsg",
+        "@stdlib/math-base-assert-is-nan",
+        "@stdlib/math-base-special-floor",
+        "@stdlib/random-base-minstd",
+        "@stdlib/random-base-shared",
+        "@stdlib/string-format",
+        "@stdlib/utils-define-nonenumerable-read-only-accessor",
+        "@stdlib/utils-define-nonenumerable-read-only-property",
+        "@stdlib/utils-define-nonenumerable-read-write-accessor"
+      ],
+      "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
+    },
+    "@stdlib/random-base-minstd@0.2.3": {
+      "integrity": "sha512-sGN8BXb0YWDUTtYx6r3zICPRnSkMgK8icEFfRqPrgc39MQyn/fFSP6TWlr8jIM7lDBRZR7FftSOoo8ysU/Z9Qw==",
+      "dependencies": [
+        "@stdlib/array-int32",
+        "@stdlib/array-to-json",
+        "@stdlib/assert-has-own-property",
+        "@stdlib/assert-is-boolean",
+        "@stdlib/assert-is-collection",
+        "@stdlib/assert-is-int32array",
+        "@stdlib/assert-is-plain-object",
+        "@stdlib/assert-is-positive-integer",
+        "@stdlib/blas-base-gcopy",
+        "@stdlib/constants-int32-max",
+        "@stdlib/error-tools-fmtprodmsg",
+        "@stdlib/math-base-special-floor",
+        "@stdlib/random-base-shared",
+        "@stdlib/string-format",
+        "@stdlib/utils-define-nonenumerable-read-only-accessor",
+        "@stdlib/utils-define-nonenumerable-read-only-property",
+        "@stdlib/utils-define-nonenumerable-read-write-accessor"
+      ],
+      "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
+    },
     "@stdlib/random-base-mt19937@0.2.3": {
       "integrity": "sha512-bFjYQfZAsXM6b06M5s81jMZqj0O56SYcnEhCcZE/JACW0y8So4J7Rl+LZ24G7zCtI8gbwuIzPyE1Z0Tl4Nj4aA==",
       "dependencies": [
@@ -1314,8 +1372,50 @@
       ],
       "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
     },
+    "@stdlib/random-base-randu@0.2.3": {
+      "integrity": "sha512-NNkm1RI9V1wq8poex+wa3Y3/65M/8be/72J6ieheXa1xv+6hSjusQRfhpUuRFR/91AomSH1BpVESDILsJDGRqg==",
+      "dependencies": [
+        "@stdlib/array-to-json",
+        "@stdlib/assert-has-own-property",
+        "@stdlib/assert-is-boolean",
+        "@stdlib/assert-is-plain-object",
+        "@stdlib/error-tools-fmtprodmsg",
+        "@stdlib/random-base-minstd",
+        "@stdlib/random-base-minstd-shuffle",
+        "@stdlib/random-base-mt19937",
+        "@stdlib/random-base-shared",
+        "@stdlib/string-format",
+        "@stdlib/utils-define-nonenumerable-read-only-accessor",
+        "@stdlib/utils-define-nonenumerable-read-only-property",
+        "@stdlib/utils-define-nonenumerable-read-write-accessor"
+      ],
+      "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
+    },
     "@stdlib/random-base-shared@0.1.2": {
       "integrity": "sha512-5QLXOZOl/jjmy4uttsSgmXUjDza4XTW5zAHFsJ1mApg9lHnk/OTVJVF5gjQKqsjWMydJmuDR5T+jZzGgL93fLA==",
+      "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
+    },
+    "@stdlib/random-base-uniform@0.2.3": {
+      "integrity": "sha512-cCAIHE0DZDJ90CEQpoBafn2KjZz59nZuSzn3zri9llZUKvt4fPXM5CWA16i0+PPZh7e2szU0zXm+6Qresbr2MA==",
+      "dependencies": [
+        "@stdlib/array-to-json",
+        "@stdlib/assert-has-own-property",
+        "@stdlib/assert-is-function",
+        "@stdlib/assert-is-nan",
+        "@stdlib/assert-is-number",
+        "@stdlib/assert-is-plain-object",
+        "@stdlib/error-tools-fmtprodmsg",
+        "@stdlib/math-base-assert-is-nan",
+        "@stdlib/random-base-mt19937",
+        "@stdlib/random-base-randu",
+        "@stdlib/random-base-shared",
+        "@stdlib/string-format",
+        "@stdlib/utils-constant-function",
+        "@stdlib/utils-define-nonenumerable-read-only-accessor",
+        "@stdlib/utils-define-nonenumerable-read-only-property",
+        "@stdlib/utils-define-nonenumerable-read-write-accessor",
+        "@stdlib/utils-noop"
+      ],
       "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
     },
     "@stdlib/regexp-extended-length-path@0.2.3": {
@@ -1418,6 +1518,10 @@
     },
     "@stdlib/types@0.4.3": {
       "integrity": "sha512-9GCqS2eni2VSwa5/CCniAJ4I1eWLtvior1z6hoPJp6VTNMgW9Lh4BiI84IO0xun/0qAclJ+mTGTiCTZxZLK13A==",
+      "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
+    },
+    "@stdlib/utils-constant-function@0.2.3": {
+      "integrity": "sha512-mQ6606O8JKq4tgL508it1ro7hx+RK6j36URSjbRI7Dje72YYpdQJGnN6UJ183Im5TT0fN2s4oOCM6+SAGcQi2w==",
       "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
     },
     "@stdlib/utils-constructor-name@0.2.3": {
@@ -1534,6 +1638,10 @@
         "@stdlib/assert-has-tostringtag-support",
         "@stdlib/symbol-ctor"
       ],
+      "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
+    },
+    "@stdlib/utils-noop@0.2.3": {
+      "integrity": "sha512-kZQWwUwq+RwmKBZZD+6dnRwhjfut5fBgbEappugvVjFGp12wDKXCj6D6Y/xTmBdKFRumO8/gzkj9n6DKNDchpA==",
       "os": ["aix", "darwin", "freebsd", "linux", "macos", "openbsd", "sunos", "win32", "windows"]
     },
     "@stdlib/utils-type-of@0.2.3": {
@@ -1866,7 +1974,8 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@1",
-      "npm:@stdlib/random-base-mt19937@~0.2.3"
+      "npm:@stdlib/random-base-mt19937@~0.2.3",
+      "npm:@stdlib/random-base-uniform@~0.2.3"
     ]
   }
 }

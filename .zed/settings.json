@@ -1,23 +1,23 @@
 {
-    "lsp": {
+  "lsp": {
+    "deno": {
+      "settings": {
         "deno": {
-            "settings": {
-                "deno": {
-                    "enable": true,
-                },
-            },
-        },
+          "enable": true
+        }
+      }
+    }
+  },
+  "languages": {
+    "JavaScript": {
+      "language_servers": ["deno"],
+      "formatter": "language_server",
+      "format_on_save": "on"
     },
-    "languages": {
-        "JavaScript": {
-            "language_servers": ["deno"],
-            "formatter": "language_server",
-            "format_on_save": "on",
-        },
-        "TypeScript": {
-            "language_servers": ["deno"],
-            "formatter": "language_server",
-            "format_on_save": "on",
-        },
-    },
+    "TypeScript": {
+      "language_servers": ["deno"],
+      "formatter": "language_server",
+      "format_on_save": "on"
+    }
+  }
 }
