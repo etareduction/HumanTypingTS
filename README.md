@@ -1,5 +1,7 @@
 # HumanTypingTS 🤖⌨️
 
+[![Tests](https://github.com/etareduction/HumanTypingTS/actions/workflows/test.yml/badge.svg)](https://github.com/etareduction/HumanTypingTS/actions/workflows/test.yml)
+[![Deno](https://img.shields.io/badge/deno-^2.0-blue?logo=deno)](https://deno.land/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > A TypeScript port of [HumanTyping](https://github.com/Lax3n/HumanTyping) by [@Lax3n](https://github.com/Lax3n).
