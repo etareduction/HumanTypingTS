@@ -113,7 +113,7 @@ npx jsr add @etareduction/humantypingts
 
 ```bash
 # Clone the repository
-git clone https://github.com/Lax3n/HumanTypingTS.git
+git clone https://github.com/etareduction/HumanTypingTS.git
 cd HumanTypingTS
 
 # Install dependencies
