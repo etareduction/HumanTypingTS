@@ -1,0 +1,158 @@
+{
+  "strings": {
+    "a😀b": {
+      "chars": [
+        "a",
+        "😀",
+        "b"
+      ],
+      "len": 3
+    },
+    ".,😀hello😀,.": {
+      "chars": [
+        ".",
+        ",",
+        "😀",
+        "h",
+        "e",
+        "l",
+        "l",
+        "o",
+        "😀",
+        ",",
+        "."
+      ],
+      "len": 11
+    },
+    "éèàùçâêîôûäëïöü": {
+      "chars": [
+        "é",
+        "è",
+        "à",
+        "ù",
+        "ç",
+        "â",
+        "ê",
+        "î",
+        "ô",
+        "û",
+        "ä",
+        "ë",
+        "ï",
+        "ö",
+        "ü"
+      ],
+      "len": 15
+    },
+    "İßΣς😀Kẞﬃ": {
+      "chars": [
+        "İ",
+        "ß",
+        "Σ",
+        "ς",
+        "😀",
+        "K",
+        "ẞ",
+        "ﬃ"
+      ],
+      "len": 8
+    }
+  },
+  "case": {
+    "A": {
+      "lower": "a",
+      "upper": "A",
+      "isupper": true,
+      "nfd_without_marks": "A"
+    },
+    "É": {
+      "lower": "é",
+      "upper": "É",
+      "isupper": true,
+      "nfd_without_marks": "E"
+    },
+    "!": {
+      "lower": "!",
+      "upper": "!",
+      "isupper": false,
+      "nfd_without_marks": "!"
+    },
+    "ǅ": {
+      "lower": "ǆ",
+      "upper": "Ǆ",
+      "isupper": false,
+      "nfd_without_marks": "ǅ"
+    },
+    "İ": {
+      "lower": "i̇",
+      "upper": "İ",
+      "isupper": true,
+      "nfd_without_marks": "I"
+    },
+    "ß": {
+      "lower": "ß",
+      "upper": "SS",
+      "isupper": false,
+      "nfd_without_marks": "ß"
+    },
+    "Σ": {
+      "lower": "σ",
+      "upper": "Σ",
+      "isupper": true,
+      "nfd_without_marks": "Σ"
+    },
+    "ς": {
+      "lower": "ς",
+      "upper": "Σ",
+      "isupper": false,
+      "nfd_without_marks": "ς"
+    },
+    "😀": {
+      "lower": "😀",
+      "upper": "😀",
+      "isupper": false,
+      "nfd_without_marks": "😀"
+    },
+    "K": {
+      "lower": "k",
+      "upper": "K",
+      "isupper": true,
+      "nfd_without_marks": "K"
+    },
+    "ẞ": {
+      "lower": "ß",
+      "upper": "ẞ",
+      "isupper": true,
+      "nfd_without_marks": "ẞ"
+    },
+    "ﬃ": {
+      "lower": "ﬃ",
+      "upper": "FFI",
+      "isupper": false,
+      "nfd_without_marks": "ﬃ"
+    }
+  },
+  "strip": [
+    {
+      "value": ".,😀hello😀,.",
+      "chars": ".,😀",
+      "expected": "hello"
+    },
+    {
+      "value": "...hello",
+      "chars": ".",
+      "expected": "hello"
+    },
+    {
+      "value": "hello...",
+      "chars": ".",
+      "expected": "hello"
+    }
+  ],
+  "nan_order": {
+    "max_10_nan_is_nan": false,
+    "max_nan_10_is_nan": true,
+    "min_10_nan_is_nan": false,
+    "min_nan_10_is_nan": true
+  }
+}

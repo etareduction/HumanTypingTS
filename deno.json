@@ -1,15 +1,17 @@
 {
-  "name": "HumanTypingTS",
-  "version": "0.1.0",
-  "exports": "./mod.ts",
-  "tasks": {
-    "test": "deno test --allow-ffi",
-    "dev": "deno test --watch --allow-ffi"
-  },
-  "license": "MIT",
-  "imports": {
-    "@std/assert": "jsr:@std/assert@1",
-    "@stdlib/random-base-mt19937": "npm:@stdlib/random-base-mt19937@^0.2.3",
-    "@stdlib/random-base-uniform": "npm:@stdlib/random-base-uniform@^0.2.3"
-  }
+    "name": "humantypingts",
+    "version": "0.1.0",
+    "exports": "./mod.ts",
+    "tasks": {
+        "test": "deno test --allow-ffi",
+        "dev": "deno test --watch --allow-ffi"
+    },
+    "license": "MIT",
+    "imports": {
+        "@std/async": "jsr:@std/async@1",
+        "@std/assert": "jsr:@std/assert@1",
+        "@stdlib/random-base-mt19937": "npm:@stdlib/random-base-mt19937@^0.2.3",
+        "@stdlib/random-base-uniform": "npm:@stdlib/random-base-uniform@^0.2.3",
+        "playwright": "npm:playwright@^1.59.1"
+    }
 }

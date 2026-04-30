@@ -1,0 +1,1217 @@
+{
+  "qwerty_simple_seed42": {
+    "name": "qwerty_simple_seed42",
+    "seed": 42,
+    "text": "the quick brown fox",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 3.9195732470639424,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 65.0)",
+        ""
+      ],
+      [
+        0.10673273818124683,
+        "TYPED 't'",
+        "t"
+      ],
+      [
+        0.1984835656664648,
+        "TYPED 'h'",
+        "th"
+      ],
+      [
+        0.2659032377825583,
+        "TYPED 'e'",
+        "the"
+      ],
+      [
+        0.5821513082576055,
+        "TYPED ' '",
+        "the "
+      ],
+      [
+        0.7444971268858678,
+        "TYPED 'q'",
+        "the q"
+      ],
+      [
+        1.0620193975420646,
+        "TYPED 'u'",
+        "the qu"
+      ],
+      [
+        1.1614006192301682,
+        "TYPED 'i'",
+        "the qui"
+      ],
+      [
+        1.1936454207536373,
+        "TYPED 'c'",
+        "the quic"
+      ],
+      [
+        1.4667588527669595,
+        "TYPED 'k'",
+        "the quick"
+      ],
+      [
+        1.9456105183931822,
+        "TYPED ' '",
+        "the quick "
+      ],
+      [
+        2.1225869052737782,
+        "TYPED 'b'",
+        "the quick b"
+      ],
+      [
+        2.3330833156109554,
+        "TYPED 'r'",
+        "the quick br"
+      ],
+      [
+        2.370823195314052,
+        "TYPED 'o'",
+        "the quick bro"
+      ],
+      [
+        2.6161843081044003,
+        "TYPED 'w'",
+        "the quick brow"
+      ],
+      [
+        2.8446440754882802,
+        "TYPED 'n'",
+        "the quick brown"
+      ],
+      [
+        3.182882963861964,
+        "TYPED ' '",
+        "the quick brown "
+      ],
+      [
+        3.384653222229333,
+        "TYPED 'f'",
+        "the quick brown f"
+      ],
+      [
+        3.648985508154544,
+        "TYPED 'o'",
+        "the quick brown fo"
+      ],
+      [
+        3.9195732470639424,
+        "TYPED 'x'",
+        "the quick brown fox"
+      ]
+    ]
+  },
+  "qwerty_upper_punctuation_seed7": {
+    "name": "qwerty_upper_punctuation_seed7",
+    "seed": 7,
+    "text": "Hello world!",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 2.07764029755726,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 76.9)",
+        ""
+      ],
+      [
+        0.3421360440580375,
+        "TYPED 'H'",
+        "H"
+      ],
+      [
+        0.4045862213850394,
+        "TYPED 'e'",
+        "He"
+      ],
+      [
+        0.5394688742362505,
+        "TYPED 'l'",
+        "Hel"
+      ],
+      [
+        0.6909233655201865,
+        "TYPED 'l'",
+        "Hell"
+      ],
+      [
+        0.7591095516978407,
+        "TYPED 'o'",
+        "Hello"
+      ],
+      [
+        1.1970598355188486,
+        "TYPED ' '",
+        "Hello "
+      ],
+      [
+        1.4031639197427794,
+        "TYPED 'w'",
+        "Hello w"
+      ],
+      [
+        1.5957876478485669,
+        "TYPED 'o'",
+        "Hello wo"
+      ],
+      [
+        1.6463266984767755,
+        "TYPED 'r'",
+        "Hello wor"
+      ],
+      [
+        1.765858948120178,
+        "TYPED 'l'",
+        "Hello worl"
+      ],
+      [
+        1.9046024739919085,
+        "TYPED 'd'",
+        "Hello world"
+      ],
+      [
+        2.07764029755726,
+        "TYPED '!'",
+        "Hello world!"
+      ]
+    ]
+  },
+  "qwerty_error_correction_seed123": {
+    "name": "qwerty_error_correction_seed123",
+    "seed": 123,
+    "text": "amazing text",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 4.422999657684742,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 49.1)",
+        ""
+      ],
+      [
+        0.3475155366557983,
+        "TYPED 'a'",
+        "a"
+      ],
+      [
+        0.6560199243679099,
+        "TYPED 'm'",
+        "am"
+      ],
+      [
+        1.0246479628986354,
+        "TYPED 'a'",
+        "ama"
+      ],
+      [
+        1.3946205019681583,
+        "TYPED_ERROR 'a'",
+        "amaa"
+      ],
+      [
+        1.992612455409557,
+        "BACKSPACE",
+        "ama"
+      ],
+      [
+        2.1378271272056835,
+        "TYPED 'z'",
+        "amaz"
+      ],
+      [
+        2.4880860874542607,
+        "TYPED 'i'",
+        "amazi"
+      ],
+      [
+        2.560843396524821,
+        "TYPED 'n'",
+        "amazin"
+      ],
+      [
+        2.6785183797637115,
+        "TYPED 'g'",
+        "amazing"
+      ],
+      [
+        3.2567892232194904,
+        "TYPED ' '",
+        "amazing "
+      ],
+      [
+        3.6079398789809494,
+        "TYPED 't'",
+        "amazing t"
+      ],
+      [
+        3.7957153482165333,
+        "TYPED 'e'",
+        "amazing te"
+      ],
+      [
+        4.114179089209996,
+        "TYPED 'x'",
+        "amazing tex"
+      ],
+      [
+        4.422999657684742,
+        "TYPED 't'",
+        "amazing text"
+      ]
+    ]
+  },
+  "qwerty_swap_seed0": {
+    "name": "qwerty_swap_seed0",
+    "seed": 0,
+    "text": "the quick brown fox jumps over the lazy dog",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 11.308562073361752,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 77.6)",
+        ""
+      ],
+      [
+        0.10478616180298106,
+        "TYPED 't'",
+        "t"
+      ],
+      [
+        0.17041994883864486,
+        "TYPED 'h'",
+        "th"
+      ],
+      [
+        0.203028932666865,
+        "TYPED 'e'",
+        "the"
+      ],
+      [
+        0.7056340163000552,
+        "TYPED ' '",
+        "the "
+      ],
+      [
+        0.9215922008572136,
+        "TYPED 'q'",
+        "the q"
+      ],
+      [
+        1.1808018564306217,
+        "TYPED 'u'",
+        "the qu"
+      ],
+      [
+        1.270382855256554,
+        "TYPED 'i'",
+        "the qui"
+      ],
+      [
+        1.3593312504279365,
+        "TYPED 'c'",
+        "the quic"
+      ],
+      [
+        1.5249399317337489,
+        "TYPED 'k'",
+        "the quick"
+      ],
+      [
+        2.077646396032666,
+        "TYPED ' '",
+        "the quick "
+      ],
+      [
+        2.189426089067914,
+        "TYPED 'b'",
+        "the quick b"
+      ],
+      [
+        2.3495628804436692,
+        "TYPED 'r'",
+        "the quick br"
+      ],
+      [
+        2.4231342011473944,
+        "TYPED 'o'",
+        "the quick bro"
+      ],
+      [
+        2.6468155965838798,
+        "TYPED 'w'",
+        "the quick brow"
+      ],
+      [
+        2.8697530533995734,
+        "TYPED 'n'",
+        "the quick brown"
+      ],
+      [
+        3.267342056102077,
+        "TYPED ' '",
+        "the quick brown "
+      ],
+      [
+        3.4657985592015845,
+        "TYPED 'f'",
+        "the quick brown f"
+      ],
+      [
+        3.703369330627427,
+        "TYPED 'o'",
+        "the quick brown fo"
+      ],
+      [
+        3.8983644912283113,
+        "TYPED 'x'",
+        "the quick brown fox"
+      ],
+      [
+        4.313808315444833,
+        "TYPED ' '",
+        "the quick brown fox "
+      ],
+      [
+        4.5284616978611725,
+        "TYPED 'j'",
+        "the quick brown fox j"
+      ],
+      [
+        4.629190146328164,
+        "TYPED 'u'",
+        "the quick brown fox ju"
+      ],
+      [
+        4.845289506993696,
+        "TYPED 'm'",
+        "the quick brown fox jum"
+      ],
+      [
+        5.088940397695383,
+        "TYPED_ERROR '0'",
+        "the quick brown fox jum0"
+      ],
+      [
+        5.577632673910622,
+        "BACKSPACE",
+        "the quick brown fox jum"
+      ],
+      [
+        5.690129109227978,
+        "TYPED 'p'",
+        "the quick brown fox jump"
+      ],
+      [
+        5.935220276084366,
+        "TYPED 's'",
+        "the quick brown fox jumps"
+      ],
+      [
+        6.438185553871313,
+        "TYPED ' '",
+        "the quick brown fox jumps "
+      ],
+      [
+        6.626513500504458,
+        "TYPED_SWAP 'vo'",
+        "the quick brown fox jumps vo"
+      ],
+      [
+        6.769308865640064,
+        "TYPED 'e'",
+        "the quick brown fox jumps voe"
+      ],
+      [
+        7.176279777567,
+        "BACKSPACE",
+        "the quick brown fox jumps vo"
+      ],
+      [
+        7.3007025536695735,
+        "BACKSPACE",
+        "the quick brown fox jumps v"
+      ],
+      [
+        7.398241411362004,
+        "BACKSPACE",
+        "the quick brown fox jumps "
+      ],
+      [
+        7.557516387890388,
+        "TYPED 'o'",
+        "the quick brown fox jumps o"
+      ],
+      [
+        7.65847290657042,
+        "TYPED 'v'",
+        "the quick brown fox jumps ov"
+      ],
+      [
+        7.680011020211104,
+        "TYPED 'e'",
+        "the quick brown fox jumps ove"
+      ],
+      [
+        7.774975887745736,
+        "TYPED 'r'",
+        "the quick brown fox jumps over"
+      ],
+      [
+        8.179631916638476,
+        "TYPED ' '",
+        "the quick brown fox jumps over "
+      ],
+      [
+        8.276605623900851,
+        "TYPED 't'",
+        "the quick brown fox jumps over t"
+      ],
+      [
+        8.328061833532452,
+        "TYPED 'h'",
+        "the quick brown fox jumps over th"
+      ],
+      [
+        8.4139915987741,
+        "TYPED 'e'",
+        "the quick brown fox jumps over the"
+      ],
+      [
+        8.657736016787503,
+        "TYPED ' '",
+        "the quick brown fox jumps over the "
+      ],
+      [
+        8.892956087901275,
+        "TYPED 'l'",
+        "the quick brown fox jumps over the l"
+      ],
+      [
+        9.131263109913215,
+        "TYPED 'a'",
+        "the quick brown fox jumps over the la"
+      ],
+      [
+        9.314917985868897,
+        "TYPED_ERROR 'a'",
+        "the quick brown fox jumps over the laa"
+      ],
+      [
+        9.873562259075994,
+        "BACKSPACE",
+        "the quick brown fox jumps over the la"
+      ],
+      [
+        9.978848674619423,
+        "TYPED 'z'",
+        "the quick brown fox jumps over the laz"
+      ],
+      [
+        10.228644189365578,
+        "TYPED 'y'",
+        "the quick brown fox jumps over the lazy"
+      ],
+      [
+        10.669877669963334,
+        "TYPED ' '",
+        "the quick brown fox jumps over the lazy "
+      ],
+      [
+        10.836899372782884,
+        "TYPED 'd'",
+        "the quick brown fox jumps over the lazy d"
+      ],
+      [
+        11.066475263530092,
+        "TYPED 'o'",
+        "the quick brown fox jumps over the lazy do"
+      ],
+      [
+        11.308562073361752,
+        "TYPED 'g'",
+        "the quick brown fox jumps over the lazy dog"
+      ]
+    ]
+  },
+  "azerty_accents_seed99": {
+    "name": "azerty_accents_seed99",
+    "seed": 99,
+    "text": "café déjà vu",
+    "target_wpm": 60,
+    "layout": "azerty",
+    "total_time": 6.4994212796656035,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 58.6)",
+        ""
+      ],
+      [
+        0.26667970257039814,
+        "TYPED_ERROR 'v'",
+        "v"
+      ],
+      [
+        0.7198369002830535,
+        "BACKSPACE",
+        ""
+      ],
+      [
+        0.9042992633639799,
+        "TYPED_ERROR 'x'",
+        "x"
+      ],
+      [
+        1.5092344967997366,
+        "BACKSPACE",
+        ""
+      ],
+      [
+        1.632380468192198,
+        "TYPED 'c'",
+        "c"
+      ],
+      [
+        1.8457659004207165,
+        "TYPED 'a'",
+        "ca"
+      ],
+      [
+        2.0080889401956328,
+        "TYPED 'f'",
+        "caf"
+      ],
+      [
+        2.382461222514231,
+        "TYPED 'é'",
+        "café"
+      ],
+      [
+        2.773903543775485,
+        "TYPED ' '",
+        "café "
+      ],
+      [
+        2.9969762588431506,
+        "TYPED 'd'",
+        "café d"
+      ],
+      [
+        3.7134339564544185,
+        "TYPED_SWAP 'jé'",
+        "café djé"
+      ],
+      [
+        4.206312751594244,
+        "BACKSPACE",
+        "café dj"
+      ],
+      [
+        4.326947665155281,
+        "BACKSPACE",
+        "café d"
+      ],
+      [
+        4.727058017985448,
+        "TYPED 'é'",
+        "café dé"
+      ],
+      [
+        5.0473200217832845,
+        "TYPED 'j'",
+        "café déj"
+      ],
+      [
+        5.480257641584978,
+        "TYPED 'à'",
+        "café déjà"
+      ],
+      [
+        6.067463398536287,
+        "TYPED ' '",
+        "café déjà "
+      ],
+      [
+        6.326667050446657,
+        "TYPED 'v'",
+        "café déjà v"
+      ],
+      [
+        6.4994212796656035,
+        "TYPED 'u'",
+        "café déjà vu"
+      ]
+    ]
+  },
+  "qwerty_non_bmp_seed11": {
+    "name": "qwerty_non_bmp_seed11",
+    "seed": 11,
+    "text": "Hi 😀!",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 1.8119492065650453,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 77.5)",
+        ""
+      ],
+      [
+        0.3463448391677259,
+        "TYPED 'H'",
+        "H"
+      ],
+      [
+        0.5112485112490776,
+        "TYPED_ERROR '6'",
+        "H6"
+      ],
+      [
+        1.0498401528736392,
+        "BACKSPACE",
+        "H"
+      ],
+      [
+        1.1685679053135136,
+        "TYPED 'i'",
+        "Hi"
+      ],
+      [
+        1.4992025938188995,
+        "TYPED ' '",
+        "Hi "
+      ],
+      [
+        1.6661859322621995,
+        "TYPED '😀'",
+        "Hi 😀"
+      ],
+      [
+        1.8119492065650453,
+        "TYPED '!'",
+        "Hi 😀!"
+      ]
+    ]
+  },
+  "qwerty_decomposed_accent_seed13": {
+    "name": "qwerty_decomposed_accent_seed13",
+    "seed": 13,
+    "text": "Café",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 1.314667026797804,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 52.9)",
+        ""
+      ],
+      [
+        0.44967212588836514,
+        "TYPED 'C'",
+        "C"
+      ],
+      [
+        0.7171978412377338,
+        "TYPED 'a'",
+        "Ca"
+      ],
+      [
+        0.9604542283144564,
+        "TYPED 'f'",
+        "Caf"
+      ],
+      [
+        1.1185147472140833,
+        "TYPED 'e'",
+        "Cafe"
+      ],
+      [
+        1.314667026797804,
+        "TYPED '́'",
+        "Café"
+      ]
+    ]
+  },
+  "qwerty_flag_grapheme_seed17": {
+    "name": "qwerty_flag_grapheme_seed17",
+    "seed": 17,
+    "text": "Go 🇺🇸!",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 1.5352828852016356,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 62.8)",
+        ""
+      ],
+      [
+        0.259136409771841,
+        "TYPED 'G'",
+        "G"
+      ],
+      [
+        0.43402751420382235,
+        "TYPED 'o'",
+        "Go"
+      ],
+      [
+        0.8839389017210353,
+        "TYPED ' '",
+        "Go "
+      ],
+      [
+        1.0708141039529446,
+        "TYPED '🇺'",
+        "Go 🇺"
+      ],
+      [
+        1.2830261286851439,
+        "TYPED '🇸'",
+        "Go 🇺🇸"
+      ],
+      [
+        1.5352828852016356,
+        "TYPED '!'",
+        "Go 🇺🇸!"
+      ]
+    ]
+  },
+  "qwerty_family_grapheme_seed19": {
+    "name": "qwerty_family_grapheme_seed19",
+    "seed": 19,
+    "text": "Hi 👨‍👩‍👧‍👦",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 2.2795815102470405,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 62.2)",
+        ""
+      ],
+      [
+        0.38277742898325623,
+        "TYPED 'H'",
+        "H"
+      ],
+      [
+        0.46735362098811517,
+        "TYPED 'i'",
+        "Hi"
+      ],
+      [
+        0.8440439727570774,
+        "TYPED ' '",
+        "Hi "
+      ],
+      [
+        1.054911775301722,
+        "TYPED '👨'",
+        "Hi 👨"
+      ],
+      [
+        1.3062095164016174,
+        "TYPED '‍'",
+        "Hi 👨‍"
+      ],
+      [
+        1.5620121244196477,
+        "TYPED '👩'",
+        "Hi 👨‍👩"
+      ],
+      [
+        1.7430716761903102,
+        "TYPED '‍'",
+        "Hi 👨‍👩‍"
+      ],
+      [
+        1.928126190441153,
+        "TYPED '👧'",
+        "Hi 👨‍👩‍👧"
+      ],
+      [
+        2.0857553228342143,
+        "TYPED '‍'",
+        "Hi 👨‍👩‍👧‍"
+      ],
+      [
+        2.2795815102470405,
+        "TYPED '👦'",
+        "Hi 👨‍👩‍👧‍👦"
+      ]
+    ]
+  },
+  "qwerty_newline_tab_non_bmp_seed23": {
+    "name": "qwerty_newline_tab_non_bmp_seed23",
+    "seed": 23,
+    "text": "A\n\t😀",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 0.9001313541630462,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 66.7)",
+        ""
+      ],
+      [
+        0.3808557109902027,
+        "TYPED 'A'",
+        "A"
+      ],
+      [
+        0.5820772240471217,
+        "TYPED '\n'",
+        "A\n"
+      ],
+      [
+        0.7308062220270104,
+        "TYPED '\t'",
+        "A\n\t"
+      ],
+      [
+        0.9001313541630462,
+        "TYPED '😀'",
+        "A\n\t😀"
+      ]
+    ]
+  },
+  "qwerty_drift_correction_seed2": {
+    "name": "qwerty_drift_correction_seed2",
+    "seed": 2,
+    "text": "abcdefghijklmnopqrstuvwxyz",
+    "target_wpm": 60,
+    "layout": "qwerty",
+    "total_time": 7.21499912746282,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 55.8)",
+        ""
+      ],
+      [
+        0.27785924700260445,
+        "TYPED 'a'",
+        "a"
+      ],
+      [
+        0.6285701200517106,
+        "TYPED 'b'",
+        "ab"
+      ],
+      [
+        0.8710383464115203,
+        "TYPED 'c'",
+        "abc"
+      ],
+      [
+        1.0122679193977253,
+        "TYPED 'd'",
+        "abcd"
+      ],
+      [
+        1.0907728623578006,
+        "TYPED 'e'",
+        "abcde"
+      ],
+      [
+        1.2084601434622815,
+        "TYPED 'f'",
+        "abcdef"
+      ],
+      [
+        1.3489243722795696,
+        "TYPED 'g'",
+        "abcdefg"
+      ],
+      [
+        1.4790232813224262,
+        "TYPED 'h'",
+        "abcdefgh"
+      ],
+      [
+        1.5842047202430436,
+        "TYPED 'i'",
+        "abcdefghi"
+      ],
+      [
+        1.7165368780942114,
+        "TYPED 'j'",
+        "abcdefghij"
+      ],
+      [
+        1.9239519503517866,
+        "TYPED 'k'",
+        "abcdefghijk"
+      ],
+      [
+        2.0795519721804987,
+        "TYPED 'l'",
+        "abcdefghijkl"
+      ],
+      [
+        2.3354547166217734,
+        "TYPED 'm'",
+        "abcdefghijklm"
+      ],
+      [
+        2.4200968820518347,
+        "TYPED 'n'",
+        "abcdefghijklmn"
+      ],
+      [
+        2.7535428770502643,
+        "TYPED 'o'",
+        "abcdefghijklmno"
+      ],
+      [
+        2.8694944235030833,
+        "TYPED 'p'",
+        "abcdefghijklmnop"
+      ],
+      [
+        3.210276173077311,
+        "TYPED 'q'",
+        "abcdefghijklmnopq"
+      ],
+      [
+        3.5210061944982702,
+        "TYPED_ERROR 'd'",
+        "abcdefghijklmnopqd"
+      ],
+      [
+        3.656965899458623,
+        "TYPED 's'",
+        "abcdefghijklmnopqds"
+      ],
+      [
+        4.183665010324323,
+        "BACKSPACE",
+        "abcdefghijklmnopqd"
+      ],
+      [
+        4.267550505958647,
+        "BACKSPACE",
+        "abcdefghijklmnopq"
+      ],
+      [
+        4.527140335174846,
+        "TYPED 'r'",
+        "abcdefghijklmnopqr"
+      ],
+      [
+        4.81366687759283,
+        "TYPED 's'",
+        "abcdefghijklmnopqrs"
+      ],
+      [
+        4.956561791339339,
+        "TYPED 't'",
+        "abcdefghijklmnopqrst"
+      ],
+      [
+        5.114985264030699,
+        "TYPED_ERROR 'y'",
+        "abcdefghijklmnopqrsty"
+      ],
+      [
+        5.403995983916757,
+        "BACKSPACE",
+        "abcdefghijklmnopqrst"
+      ],
+      [
+        5.592920489918014,
+        "TYPED 'u'",
+        "abcdefghijklmnopqrstu"
+      ],
+      [
+        5.870157590489725,
+        "TYPED 'v'",
+        "abcdefghijklmnopqrstuv"
+      ],
+      [
+        6.150903669631476,
+        "TYPED 'w'",
+        "abcdefghijklmnopqrstuvw"
+      ],
+      [
+        6.475124902771181,
+        "TYPED 'x'",
+        "abcdefghijklmnopqrstuvwx"
+      ],
+      [
+        6.851676398771391,
+        "TYPED 'y'",
+        "abcdefghijklmnopqrstuvwxy"
+      ],
+      [
+        7.21499912746282,
+        "TYPED 'z'",
+        "abcdefghijklmnopqrstuvwxyz"
+      ]
+    ]
+  },
+  "azerty_high_wpm_seed31": {
+    "name": "azerty_high_wpm_seed31",
+    "seed": 31,
+    "text": "AZERTY 123 éà",
+    "target_wpm": 120,
+    "layout": "azerty",
+    "total_time": 2.831505771079239,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 115.9)",
+        ""
+      ],
+      [
+        0.3247203289401258,
+        "TYPED 'A'",
+        "A"
+      ],
+      [
+        0.5855567136498865,
+        "TYPED 'Z'",
+        "AZ"
+      ],
+      [
+        0.8300888803829705,
+        "TYPED 'E'",
+        "AZE"
+      ],
+      [
+        1.0628902999142014,
+        "TYPED 'R'",
+        "AZER"
+      ],
+      [
+        1.3278045558709346,
+        "TYPED 'T'",
+        "AZERT"
+      ],
+      [
+        1.5768139892319644,
+        "TYPED 'Y'",
+        "AZERTY"
+      ],
+      [
+        1.8586668233866035,
+        "TYPED ' '",
+        "AZERTY "
+      ],
+      [
+        1.925172671856162,
+        "TYPED '1'",
+        "AZERTY 1"
+      ],
+      [
+        1.9547497721039695,
+        "TYPED '2'",
+        "AZERTY 12"
+      ],
+      [
+        1.9747497721039695,
+        "TYPED '3'",
+        "AZERTY 123"
+      ],
+      [
+        2.2917575417644747,
+        "TYPED ' '",
+        "AZERTY 123 "
+      ],
+      [
+        2.5643141206302085,
+        "TYPED 'é'",
+        "AZERTY 123 é"
+      ],
+      [
+        2.831505771079239,
+        "TYPED 'à'",
+        "AZERTY 123 éà"
+      ]
+    ]
+  },
+  "qwerty_low_wpm_seed37": {
+    "name": "qwerty_low_wpm_seed37",
+    "seed": 37,
+    "text": "slow typing",
+    "target_wpm": 25,
+    "layout": "qwerty",
+    "total_time": 4.8649793555299015,
+    "history": [
+      [
+        0.0,
+        "INIT (WPM: 24.5)",
+        ""
+      ],
+      [
+        0.5111644846870178,
+        "TYPED 's'",
+        "s"
+      ],
+      [
+        1.108911763982421,
+        "TYPED 'l'",
+        "sl"
+      ],
+      [
+        1.3411672336900289,
+        "TYPED 'o'",
+        "slo"
+      ],
+      [
+        1.9036766152900295,
+        "TYPED 'w'",
+        "slow"
+      ],
+      [
+        2.761089162910231,
+        "TYPED ' '",
+        "slow "
+      ],
+      [
+        3.2147727715813716,
+        "TYPED 't'",
+        "slow t"
+      ],
+      [
+        3.496018419772717,
+        "TYPED 'y'",
+        "slow ty"
+      ],
+      [
+        3.9730516737818604,
+        "TYPED 'p'",
+        "slow typ"
+      ],
+      [
+        4.472397196981533,
+        "TYPED 'i'",
+        "slow typi"
+      ],
+      [
+        4.679496690163704,
+        "TYPED 'n'",
+        "slow typin"
+      ],
+      [
+        4.8649793555299015,
+        "TYPED 'g'",
+        "slow typing"
+      ]
+    ]
+  }
+}
